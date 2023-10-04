@@ -1,0 +1,452 @@
+/* Default styles for mobile view */
+.bottom_section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  .class1,
+  .class2 {
+    margin: 10px;
+
+  }
+
+
+  .textcolor1{
+
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: bold;
+  }
+
+  .textcolor2{
+
+    color: rgba(255, 255, 255, 0.248);
+  }
+
+  .class11
+  {
+       background:#343541;
+       padding: 10px;
+       border: solid;
+       border-color: rgba(255, 255, 255, 0.375);
+       border-radius: 10px;
+       border-width: 1px;
+       width: 370px;      
+
+  }
+
+  .class11:hover
+  {
+    background: #424454;
+    cursor: pointer;
+  }
+
+
+
+  
+  .popup_1
+  {
+       background:#343541;
+       padding: 10px;
+       border: solid;
+       border-color: rgba(255, 255, 255, 0.375);
+       border-radius: 10px;
+       border-width: 1px;
+       width: 293px;
+       margin-left: 48% !important;
+       margin-top: 17px !important;
+       
+  }
+
+  
+  /* Media query for desktop view */
+  @media (min-width: 768px) {
+    .bottom_section {
+      flex-direction: row !important;
+      justify-content: center; /* Optional: Center horizontally */
+    }
+    .class1,
+    .class2 {
+      margin: 10px; /* You can adjust the margin as needed */
+    }
+
+  }
+
+
+    /* Media query for mobile view */
+    @media (max-width: 768px) {
+    
+      .bottom_main
+      {
+        display: none !important;
+      }
+
+      .popup_1
+      {
+        margin-left: 0 !important;
+        margin-top: 37px !important;
+        width: 98% !important;
+      }
+
+      .send_icon_clz
+      {
+        margin: 0 !important;
+      }
+
+      .right_popup_button_round
+      {
+        display: none;
+      }
+
+
+
+    }
+
+
+
+
+
+
+
+  .side_settings
+  {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    bottom: 119px;
+    width: 91%;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .setting1
+  {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .setting1:hover
+  {
+    background-color: #343541;
+  }
+
+
+
+  .icons_position
+  {
+    margin-top: 3px;
+    margin-right: 8px;
+  }
+
+  .hidden {
+    display: none;
+}
+
+
+/* Settings model styles */
+
+
+.overlay_cover
+{
+  display: none;
+}
+
+
+.titile_close
+  {
+      display: flex;
+      justify-content: space-between !important;
+  }
+
+  .overla
+  {
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   background: #4b4e5d;
+   z-index: 99;
+   opacity: 70%;
+   /* display: flex;
+   justify-content:center ;
+   align-items: center; */
+ 
+  }
+
+
+  .setting_model
+  {
+    padding: 20px;
+    width: 45%;
+    height: 77%;
+    background: #202123;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 999;
+    
+  }
+
+
+  .vertical-line {
+    border-left: 1px solid #ffffff26;
+    height: 268px;
+    margin: 0 20px;
+}
+
+
+
+
+
+  .settings_cover
+  {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .settings_full_cover
+  {
+   display: none;
+
+  }
+
+  .hr_lines
+  {
+    margin-bottom: 8px;
+    margin-top: 15px;
+    width: 100%;
+    border-color: rgb(75, 75, 75);
+  }
+
+  .hr_lines1
+  {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 100%;
+    border-color: rgb(75, 75, 75);
+  }
+
+
+  .container {
+    display: flex;
+  }
+
+  .left-column {
+    width: 30%;
+    background-color: #202123; /* Change the background color as needed */
+    padding: 10px; /* Add padding to the left column */
+  }
+
+  .right-column {
+    width: 70%;
+    background-color: v; /* Change the background color as needed */
+    padding: 10px; /* Add padding to the right column */
+  }
+
+
+  .left-column1 {
+    width: 50%;
+    background-color: #202123; /* Change the background color as needed */
+    padding: 10px; /* Add padding to the left column */
+  }
+
+  .right-column1 {
+    width: 50%;
+    background-color: v; /* Change the background color as needed */
+    padding: 10px; /* Add padding to the right column */
+  }
+
+
+  .list-flex
+  {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .list-flex1
+  {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .list-flex1-link
+  {
+    font-size: 13px;
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+  .right-margin-free-list
+  {
+    margin-right: 5px;
+    margin-top: 1px;
+    font-size: 20px;
+  }
+
+  .free-main-text
+  {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+
+
+
+  .general_tab , .general_tab1
+  {
+    border-radius: 5px;
+  }
+
+  .general_tab:hover {
+    background-color: #343541; /* Change the background color on hover */
+  }
+
+  .general_tab1:hover {
+    background-color: #343541; /* Change the background color on hover */
+  }
+  
+
+
+  .clear-chat-section
+  {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .clear-chat-btn
+  {
+    background: #b91c1c;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /*Drpdown themes change*/
+
+  .select-theme
+  {
+    background: #202123;
+    border: none;
+  }
+
+  .select-theme-1 ,   .select-theme-2 ,   .select-theme-3
+  {
+    
+    background: #202123;
+    border: none;
+  }
+
+  
+  .select-theme-1
+  {
+    background: #202123;
+  }
+
+
+  select {
+    width: 80px; /* Adjust the width as needed */
+  }
+
+  select option {
+    background-color: white; /* Set the default background color */
+  }
+
+  select option:hover {
+    background-color: #ff0000 !important; /* Change this to your desired hover color */
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  /*Toggle button */
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1ba380;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1ba380;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+/* 
+
+  .dark .dark\:bg-\[\#343541\] {
+    --tw-bg-opacity: 1 !important;
+    background-color: white !important;
+    color: black;
+    }
+   */
+
+
+   /* #chat_list_dynamic
+   {
+    background: red !important;
+   } */
+
+  
