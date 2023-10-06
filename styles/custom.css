@@ -114,8 +114,7 @@
 @media screen and (min-width: 1024px) {
   #bottom_main_id
   {
-   display: block;
-      
+   top: 486px !important;
   }
 }
 
