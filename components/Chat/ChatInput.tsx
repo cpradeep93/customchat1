@@ -121,6 +121,13 @@ export const ChatInput = ({
       alert(t('Please enter a message'));
       return;
     }
+      else
+    {
+      const element = document.getElementById('bottom_main_id');
+      if (element) {
+        element.style.display = 'none';
+      }
+    }   
 
     onSend({ role: 'user', content }, plugin);
     setContent('');
