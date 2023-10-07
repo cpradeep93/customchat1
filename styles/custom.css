@@ -104,7 +104,11 @@
         display: none;
       }
 
-
+      .setting_model
+      {
+        width: 95% !important;
+        height: 70% !important;
+      }
 
     }
 
