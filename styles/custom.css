@@ -143,6 +143,57 @@
 
 
 
+    /*Start - these media quries for responsive belo options*/
+
+
+    @media (max-height: 829px) and (min-height: 814px)  {
+      .bottom_main
+      {
+        top: 45% !important;
+      }    
+    }
+
+
+    @media (max-height: 814px) and (min-height: 740px)  {
+      .bottom_main
+      {
+        top: 39% !important;
+      }    
+    }
+
+    @media (max-height: 740px) and (min-height: 690px)  {
+      .bottom_main
+      {
+        top: 35% !important;
+      } 
+    }
+
+    @media (max-height: 690px) and (min-height: 635px)  {
+      .bottom_main
+      {
+        top: 30% !important;
+      }  
+    }
+
+    @media (max-height: 635px) and (min-height: 500px)  {
+      .bottom_main
+      {
+        top: 25% !important;
+      }  
+    }
+
+    /* End -  these media quries for responsive belo options*/
+
+
+
+
+
+
+
+
+
+
+
 
   .side_settings
   {
