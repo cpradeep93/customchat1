@@ -147,7 +147,7 @@
   @media (max-height: 870px) and (min-height: 850px)  {
       .bottom_main
       {
-        top: 45% !important;
+        top: 50% !important;
       }    
     }
 
@@ -155,7 +155,7 @@
   @media (max-height: 850px) and (min-height: 829px)  {
       .bottom_main
       {
-        top: 45% !important;
+        top: 47% !important;
       }    
     }
 
