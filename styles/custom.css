@@ -304,7 +304,8 @@
   {
     padding: 20px;
     width: 45%;
-    height: 77%;
+    height: auto;
+/*  height: 77%; */
     background: #202123;
     border-radius: 6px;
     position: absolute;
