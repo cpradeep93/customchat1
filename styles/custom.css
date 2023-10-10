@@ -144,10 +144,19 @@
 
     /*Start - these media quries for responsive belo options*/
 
+
+  @media (max-height: 1000px) and (min-height: 900px)  {
+      .bottom_main
+      {
+        top: 53% !important;
+      }    
+    }
+
+
   @media (max-height: 900px) and (min-height: 870px)  {
       .bottom_main
       {
-        top: 50% !important;
+        top: 51% !important;
       }    
     }
 
