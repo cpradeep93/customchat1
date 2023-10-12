@@ -671,7 +671,9 @@ const overlay_open_pemium = () => {
                     <h5 className="textcolor1" style={{marginBottom:'13px'}}>Our most capable model, great for tasks that require creativity and advanced reasoning.</h5>
                     <p className="textcolor2" style={{marginBottom:'13px'}}>Available exclusively to Plus users.</p>
                     <p className="textcolor2" style={{marginBottom:'13px'}}>GPT-4 currently has a cap of 25 messages every 3 hours.</p>
-                    <button type="button" onClick={overlay_open_pemium} style={{background:'#ab68fd' , width:'100%' , padding:'10px' , borderRadius:'5px'}}>Upgrade to ChatGPT Plus</button>
+                    <button type="button" style={{background:'#ab68fd' , width:'100%' , padding:'10px' , borderRadius:'5px'}}>Upgrade to ChatGPT Plus</button>
+
+{/*                      onClick={overlay_open_pemium}  */}
             
                   </div>
                 </div>
