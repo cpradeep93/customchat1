@@ -38,15 +38,15 @@ export const Import: FC<Props> = ({ onImport }) => {
         text={t('Upgrade to Plus')}
         icon={<IconUser size={18} />}
         onClick={() => {
-            const element12 = document.getElementById('overlay_top');
-            const element13 = document.getElementById('setting_section_cover_premium');
-            const element1 = document.getElementById('side_popup_id');
-              // Check if the element exists and hide it
-            if (element12 && element13 && element1) {
-              element12.style.display = 'block';
-              element13.style.display = 'block';
-              element1.style.display = 'none';        
-            }  
+            // const element12 = document.getElementById('overlay_top');
+            // const element13 = document.getElementById('setting_section_cover_premium');
+            // const element1 = document.getElementById('side_popup_id');
+            //   // Check if the element exists and hide it
+            // if (element12 && element13 && element1) {
+            //   element12.style.display = 'block';
+            //   element13.style.display = 'block';
+            //   element1.style.display = 'none';        
+            // }  
       }}
       />
     </>
