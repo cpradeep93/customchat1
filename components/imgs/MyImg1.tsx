@@ -6,7 +6,7 @@ function MyImg1() {
     <div>
       {/* Use the `src` prop to specify the path to your image */}
       <Image
-        src="/icons.png" // Path to your image in the public directory
+        src="/icons_chat.png" // Path to your image in the public directory
         alt="My Image"
         width={45} // Width of the displayed image
         height={45} // Height of the displayed image
