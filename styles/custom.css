@@ -110,6 +110,12 @@
         height: 70% !important;
       }
 
+      #bottom_input_text
+      {
+        display: none;
+      } 
+
+
     }
 
 
