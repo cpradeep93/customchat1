@@ -107,7 +107,8 @@
       .setting_model
       {
         width: 95% !important;
-        height: 70% !important;
+/*         height: 70% !important; */
+         height: auto;
       }
 
       #bottom_input_text
