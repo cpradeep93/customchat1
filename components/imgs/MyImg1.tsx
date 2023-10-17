@@ -11,7 +11,7 @@ function MyImg1() {
         width={45} // Width of the displayed image
         height={45} // Height of the displayed image
 
-        style={ { position:'relative' , left:'0px' , bottom:'8px'}}
+        style={ { position:'relative' , left:'0px' , bottom:'8px'  , marginRight:'5px' }}
         
       />
     </div>
