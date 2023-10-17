@@ -8,10 +8,10 @@ function MyImg1() {
       <Image
         src="/icons_chat.png" // Path to your image in the public directory
         alt="My Image"
-        width={45} // Width of the displayed image
-        height={45} // Height of the displayed image
+        width={40} // Width of the displayed image
+        height={40} // Height of the displayed image
 
-        style={ { position:'relative' , left:'0px' , bottom:'8px'  , marginRight:'5px' }}
+        style={ { position:'relative' , left:'0px' , bottom:'9px'  , marginRight:'5px' }}
         
       />
     </div>
