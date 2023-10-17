@@ -116,6 +116,12 @@
         display: none;
       } 
 
+    
+      .send_message_input
+      {
+        margin-bottom: 50px;
+      }
+
 
     }
 
