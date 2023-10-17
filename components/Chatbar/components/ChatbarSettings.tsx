@@ -69,6 +69,11 @@ const overlay_open = () => {
 };
 
 
+const empty_clz = () => {
+
+};
+
+
 // CUSTOM JS CODE - OVERLAY AND SETTING MODEL DISPLAY FUNCTION WHEN CLICK ON SETTING OPTION (LEFT BELOW MODEL)  - END 
 
 //====================================================================================================================================================================
@@ -152,7 +157,7 @@ export const ChatbarSettings = () => {
 
 
             <div style={{ color:'white' , position:'relative' , left:'-20px' }}>
-              <SidebarButton text={t('Oxtia Jailbreak')} icon={<IconFileExport size={18} style={{display:'none'}} />} onClick={() => handleExportData()}/>
+              <SidebarButton text={t('Oxtia Jailbreak')} icon={<IconFileExport size={18} style={{display:'none'}} />} onClick={() => empty_clz()}/>
             </div>
 
             <div style={{ color:'white' , position:'absolute' , left:'200px' , marginTop:'50px' }}>
